@@ -101,8 +101,8 @@ footer {
     flex-shrink: 1;
     width: 520px;
     min-width: 1px;
-    height: 240px;
-    min-height: 1px;
+    height: auto;
+    min-height: auto;
 }
 
 .hero-main-text {
