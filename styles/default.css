@@ -10,6 +10,7 @@ html {
 
 body {
     margin: 0;
+    background-color: #F9FAF8;
 }
 
 button {
@@ -115,21 +116,72 @@ footer {
 
 .info-body {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FAF8;
+    padding: 2rem 0;
+    padding-bottom: 6rem;
+}
+
+.info-body h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
 
 .img-gallery {
+    justify-content: center;
+    padding: 1.5rem 0;
+    gap: 3rem;
 }
 
 .img-card {
     flex-direction: column;
+    flex: 0 1 0;
+}
+
+.img-card img {
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+    margin-bottom: 0.5rem;
+}
+
+.img-card figcaption {
+    text-align: center;
+    padding: 0.3rem;
 }
 
 /* ---------- Quote Body Section ----------*/
 
 .quote-body {
-
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 8rem 0;
+    width: 100%;
 }
 
+.quote-container {
+    display: flex;
+    width:40%;
+    flex-direction: column;
+    align-items: end;
+}
+
+.quote-body p {
+    flex: auto;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.quote-body .quote-text {
+    flex: auto;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
 
 /* ---------- Sign Up Body Section ----------*/
 
