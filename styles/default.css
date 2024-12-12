@@ -48,6 +48,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .header-logo {
@@ -195,13 +196,25 @@ footer {
 /* ---------- Sign Up Body Section ----------*/
 
 .signup-body {
-
+    display: flex;
+    justify-content: center;
+    padding: 8rem 0;
 }
 
 .signup-banner {
-
+    display: flex;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 8rem;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
 }
 
 .signup-banner button {
+    flex: 0 0 auto;
     border: 2px solid white;
 }
