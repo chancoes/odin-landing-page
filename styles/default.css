@@ -214,6 +214,10 @@ footer {
     color: #F9FAF8;
 }
 
+.signup-banner p {
+    padding: 0.1rem;
+}
+
 .signup-banner button {
     flex: 0 0 auto;
     border: 2px solid white;
