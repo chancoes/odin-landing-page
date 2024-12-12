@@ -208,7 +208,8 @@ footer {
     justify-content: space-around;
     align-items: center;
     width: 40%;
-    height: 8rem;
+    height: auto;
+    min-height: 6rem;
     background-color: #3882F6;
     border-radius: 8px;
     color: #F9FAF8;
