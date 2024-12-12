@@ -8,16 +8,93 @@ html {
     box-sizing: inherit;
 }
 
-header {
+body {
+    margin: 0;
+}
 
+button {
+    flex: 0;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 0px;
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 10px;
+    width: 9rem;
+    height: 2.2rem;
+}
+
+header,
+footer,
+.hero-section {
+    background-color: #1F2937;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+header {
+    justify-content: space-between;
+    padding: 0 20rem;
 }
 
 footer {
+    justify-content: center;
+    color: #F9FAF8;
+    padding: 1rem;
+}
 
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-nav {
+    display: flex;
+    gap: 2rem;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.header-nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .hero-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 8rem 0;
+}
 
+.hero-left {
+    flex: 1;
+    margin-left: 20rem;
+}
+
+.hero-section img {
+    flex-shrink: 0;
+    margin-right: 20rem;
+    width: 520px;
+    height: 240px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+    margin-right: 12rem;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 1rem 0;
+    margin-right: 4rem;
 }
 
 .info-body {
@@ -29,7 +106,7 @@ footer {
 }
 
 .img-card {
-    
+
 }
 
 .quote-body {
@@ -42,4 +119,8 @@ footer {
 
 .signup-banner {
 
+}
+
+.signup-banner button {
+    border: 2px solid white;
 }
