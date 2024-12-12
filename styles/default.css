@@ -95,14 +95,14 @@ footer {
 
 .hero-left {
     flex: 1;
-    /* margin-left: 20rem; */
 }
 
 .hero-section img {
-    flex-shrink: 0;
-    /* margin-right: 20rem; */
+    flex-shrink: 1;
     width: 520px;
+    min-width: 1px;
     height: 240px;
+    min-height: 1px;
 }
 
 .hero-main-text {
