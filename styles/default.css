@@ -24,6 +24,8 @@ button {
     height: 2.2rem;
 }
 
+/* ---------- Header, Footer, and Hero Section ----------*/
+
 header,
 footer,
 .hero-section {
@@ -34,15 +36,11 @@ footer,
     align-items: center;
 }
 
+/* ---------- Header Specific Section ----------*/
+
 header {
     justify-content: space-between;
     padding: 0 20rem;
-}
-
-footer {
-    justify-content: center;
-    color: #F9FAF8;
-    padding: 1rem;
 }
 
 .header-logo {
@@ -63,6 +61,16 @@ footer {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+/* ---------- Footer Specific Section ----------*/
+
+footer {
+    justify-content: center;
+    color: #F9FAF8;
+    padding: 1rem;
+}
+
+/* ---------- Hero Specific Section ----------*/
 
 .hero-section {
     display: flex;
@@ -97,21 +105,33 @@ footer {
     margin-right: 4rem;
 }
 
-.info-body {
+/* ---------- Info Body Section ----------*/
 
+.info-body,
+.img-gallery,
+.img-card {
+    display: flex;
+}
+
+.info-body {
+    flex-direction: column;
 }
 
 .img-gallery {
-
 }
 
 .img-card {
-
+    flex-direction: column;
 }
+
+/* ---------- Quote Body Section ----------*/
 
 .quote-body {
 
 }
+
+
+/* ---------- Sign Up Body Section ----------*/
 
 .signup-body {
 
