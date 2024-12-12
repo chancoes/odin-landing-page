@@ -40,8 +40,14 @@ footer,
 /* ---------- Header Specific Section ----------*/
 
 header {
+    justify-content: center;
+}
+
+.header-container {
+    width: 65%;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 0 20rem;
 }
 
 .header-logo {
@@ -75,18 +81,25 @@ footer {
 
 .hero-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 8rem 0;
+}
+
+.hero-container {
+    display: flex;
+    width: 65%;
+    flex-wrap: wrap;
+    gap: 3rem;
 }
 
 .hero-left {
     flex: 1;
-    margin-left: 20rem;
+    /* margin-left: 20rem; */
 }
 
 .hero-section img {
     flex-shrink: 0;
-    margin-right: 20rem;
+    /* margin-right: 20rem; */
     width: 520px;
     height: 240px;
 }
@@ -95,15 +108,11 @@ footer {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-    margin: 0;
-    margin-right: 12rem;
 }
 
 .hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
-    margin: 1rem 0;
-    margin-right: 4rem;
 }
 
 /* ---------- Info Body Section ----------*/
